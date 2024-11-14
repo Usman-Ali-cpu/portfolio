@@ -1,0 +1,62 @@
+
+
+.email-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    position: relative;
+}
+
+.right-sidebar {
+    width: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: auto;
+    right: 40px;
+    z-index: 10;
+    color: #a8b2d1;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.sidebar-email {
+    text-decoration: none;
+    font-family: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
+    color: #a8b2d1;
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+    font-size: 14px;
+}
+
+.left-sidebar {
+    width: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: auto;
+    left: 40px;
+    z-index: 10;
+    color: #a8b2d1;
+    height: 320px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+}
